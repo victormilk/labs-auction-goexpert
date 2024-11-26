@@ -1,0 +1,15 @@
+GET http://localhost:8080/auction?status=1 HTTP/1.1
+
+###
+
+POST http://localhost:8080/auction HTTP/1.1
+Content-Type: application/json
+
+{
+    "product_name": "Iphone 15",
+    "category": "electronicos",
+    "description": "Brand new Iphone 15",
+    "condition": 0
+}
+
+
