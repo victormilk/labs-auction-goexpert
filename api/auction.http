@@ -1,4 +1,4 @@
-GET http://localhost:8080/auction?status=1 HTTP/1.1
+GET http://localhost:8080/auction?status=0 HTTP/1.1
 
 ###
 
@@ -13,3 +13,6 @@ Content-Type: application/json
 }
 
 
+###
+
+GET http://localhost:8080/auction/1 HTTP/1.1
